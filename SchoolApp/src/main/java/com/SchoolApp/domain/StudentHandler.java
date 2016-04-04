@@ -16,7 +16,7 @@ public class StudentHandler
     public StudentHandler() {
     }
 
-    public  void employeeMenu()
+    public  void studentMenu()
     {
         int option = 0;
         menu();
@@ -37,15 +37,7 @@ public class StudentHandler
                     viewStudents();
                     break;
                 case 4:
-                    viewReport();
-                    break;
-                case 5:
-                    enterMarks();
-                    break;
-                case 6:
-                    studentMarks();
-                    break;
-                default:
+                    viewAllStudents();
                     break;
             }
             menu();
@@ -59,10 +51,7 @@ public class StudentHandler
         System.out.println("-------------------------Student Information----------------------------");
         System.out.println("1. add an student");
         System.out.println("2. Remove an student");
-        System.out.println("3. View all students in a grade");
-        System.out.println("4. View all Students in a grade");
-        System.out.println("5. Enter Students marks");
-        System.out.println("6. View a Student's marks");
+        System.out.println("3. View a students");
         System.out.print("Option:");
     }
 
@@ -89,8 +78,9 @@ public class StudentHandler
         System.out.print("Please Enter Student Selfphone Nr:");
         cell = keyb.next();
         stud = new Student(name, middlename, lastName, dob, gender, address, cell);
-
+        stud.setStudentNr(studentNr);
         list.add(stud);
+        /*
         StudentFileHandler filehandler = new StudentFileHandler();
         filehandler.setValues(stud);
         try {
@@ -98,29 +88,61 @@ public class StudentHandler
         }catch (IOException e)
         {
             System.out.println(e.getMessage());
-        }
+        }*/
     }
 
     public void removeStudent()
     {
-
+        System.out.println("Enter Employee Nr you want to remove:");
+        keyb = new Scanner(System.in);
+        String studentNr = keyb.next();
+        int interator = 0;
+        int index = 0;
+        for(Student item : list)
+        {
+            if(item.getStudentNr().equals(studentNr))
+            {
+                index = interator;
+            }
+            else
+            {
+                interator++;
+            }
+        }
+        list.remove(index);
     }
 
     public void viewStudents()
     {
-
+        System.out.println("Enter Student Nr you want to view:");
+        keyb = new Scanner(System.in);
+        String studentNr = keyb.next();
+        int interator = 0;
+        int index = 0;
+        for(Student item : list)
+        {
+            if(item.getStudentNr().equals(studentNr))
+            {
+                index = interator;
+            }
+            else
+            {
+                interator++;
+            }
+        }
+        System.out.println(list.get(index).toString());
     }
-    public void viewReport()
-    {
 
-    }
-    public void enterMarks()
-    {
+   public void viewAllStudents()
+   {
+       int index = 0;
+       for(Student item : list)
+       {
+           System.out.println(list.get(index).toString());
+           index++;
+       }
 
-    }
-    public void studentMarks()
-    {
+   }
 
-    }
 
 }
