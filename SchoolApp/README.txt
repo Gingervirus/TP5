@@ -1,1 +1,2 @@
 Note that i did not implement an menu to populate EmployeeData I populated it using person test class
+Note that I used TestGradingFactory to implement the factory on the StudentData Class and that i used the DetentsionFactory in the TestStudent class
