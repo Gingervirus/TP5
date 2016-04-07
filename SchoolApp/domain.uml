@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.SchoolApp.domain</OriginalElement>
+  <nodes>
+    <node x="433.6365313653137" y="329.2952029520295">com.SchoolApp.domain.WorkingHoursCleaner</node>
+    <node x="1183.9151291512917" y="130.25645756457556">com.SchoolApp.domain.EmployeeData</node>
+    <node x="1472.8560885608854" y="855.4409594095943">com.SchoolApp.TestWorkingHours</node>
+    <node x="540.5055350553505" y="555.2619926199262">com.SchoolApp.domain.Salary</node>
+    <node x="664.7952029520295" y="1036.3874538745386">com.SchoolApp.domain.JobSecretary</node>
+    <node x="659.6365313653137" y="329.2952029520295">com.SchoolApp.domain.WorkingHoursSecratary</node>
+    <node x="564.7066420664206" y="798.0738007380073">com.SchoolApp.factories.JobFactory</node>
+    <node x="890.7952029520295" y="1036.3874538745386">com.SchoolApp.domain.JobTeacher</node>
+    <node x="553.2675276752767" y="440.83579335793354">com.SchoolApp.factories.SalaryFactory</node>
+    <node x="1263.929889298893" y="851.5719557195574">com.SchoolApp.TestSalaryFactory</node>
+    <node x="438.79520295202957" y="1036.3874538745386">com.SchoolApp.domain.JobPrincipal</node>
+    <node x="663.5055350553505" y="680.2619926199262">com.SchoolApp.domain.SalaryPrincipal</node>
+    <node x="212.79520295202957" y="1036.3874538745386">com.SchoolApp.domain.JobCleaner</node>
+    <node x="889.5055350553505" y="680.2619926199262">com.SchoolApp.domain.SalarySecretary</node>
+    <node x="885.6365313653137" y="329.2952029520295">com.SchoolApp.domain.WorkingHoursTeacher</node>
+    <node x="437.50553505535055" y="680.2619926199262">com.SchoolApp.domain.SalaryTeacher</node>
+    <node x="536.6365313653137" y="204.2952029520295">com.SchoolApp.domain.WorkingHours</node>
+    <node x="522.7546125461256" y="93.73800738007378">com.SchoolApp.factories.WorkingHoursFactory</node>
+    <node x="1440.8763837638378" y="686.4944649446494">com.SchoolApp.AppTest</node>
+    <node x="211.50553505535055" y="680.2619926199262">com.SchoolApp.domain.SalaryCleaner</node>
+    <node x="1255.4354243542437" y="678.1346863468633">com.SchoolApp.TestPerson</node>
+    <node x="541.7952029520295" y="911.3874538745388">com.SchoolApp.domain.Job</node>
+    <node x="207.63653136531372" y="329.2952029520295">com.SchoolApp.domain.WorkingHoursPrincipal</node>
+    <node x="1057.5830258302583" y="845.1236162361623">com.SchoolApp.TestJobFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.SchoolApp.domain.WorkingHoursTeacher" target="com.SchoolApp.domain.WorkingHours">
+      <point x="0.0" y="-26.0" />
+      <point x="988.6365313653137" y="299.2952029520295" />
+      <point x="734.3865313653137" y="299.2952029520295" />
+      <point x="84.75" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.JobPrincipal" target="com.SchoolApp.domain.Job">
+      <point x="0.0" y="-26.0" />
+      <point x="541.7952029520295" y="1016.3874538745387" />
+      <point x="626.5452029520295" y="1016.3874538745387" />
+      <point x="-28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.factories.SalaryFactory" target="com.SchoolApp.domain.SalaryTeacher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.WorkingHoursFactory" target="com.SchoolApp.domain.WorkingHoursPrincipal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.WorkingHoursSecratary" target="com.SchoolApp.domain.WorkingHours">
+      <point x="0.0" y="-26.0" />
+      <point x="762.6365313653137" y="309.2952029520295" />
+      <point x="677.8865313653137" y="309.2952029520295" />
+      <point x="28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.JobSecretary" target="com.SchoolApp.domain.Job">
+      <point x="0.0" y="-26.0" />
+      <point x="767.7952029520295" y="1016.3874538745387" />
+      <point x="683.0452029520295" y="1016.3874538745387" />
+      <point x="28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.factories.JobFactory" target="com.SchoolApp.domain.JobCleaner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.WorkingHoursFactory" target="com.SchoolApp.domain.WorkingHoursCleaner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.SalarySecretary" target="com.SchoolApp.domain.Salary">
+      <point x="0.0" y="-26.0" />
+      <point x="992.5055350553505" y="650.2619926199262" />
+      <point x="738.2555350553505" y="650.2619926199262" />
+      <point x="84.75" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.JobTeacher" target="com.SchoolApp.domain.Job">
+      <point x="0.0" y="-26.0" />
+      <point x="993.7952029520295" y="1006.3874538745387" />
+      <point x="739.5452029520295" y="1006.3874538745387" />
+      <point x="84.75" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.WorkingHoursPrincipal" target="com.SchoolApp.domain.WorkingHours">
+      <point x="0.0" y="-26.0" />
+      <point x="310.6365313653137" y="299.2952029520295" />
+      <point x="564.8865313653137" y="299.2952029520295" />
+      <point x="-84.75" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.factories.SalaryFactory" target="com.SchoolApp.domain.SalaryCleaner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.JobFactory" target="com.SchoolApp.domain.JobPrincipal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.WorkingHoursFactory" target="com.SchoolApp.domain.WorkingHoursSecratary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.JobCleaner" target="com.SchoolApp.domain.Job">
+      <point x="0.0" y="-26.0" />
+      <point x="315.79520295202957" y="1006.3874538745387" />
+      <point x="570.0452029520295" y="1006.3874538745387" />
+      <point x="-84.75" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.factories.SalaryFactory" target="com.SchoolApp.domain.SalarySecretary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.SalaryFactory" target="com.SchoolApp.domain.SalaryPrincipal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.SalaryPrincipal" target="com.SchoolApp.domain.Salary">
+      <point x="0.0" y="-26.0" />
+      <point x="766.5055350553505" y="660.2619926199262" />
+      <point x="681.7555350553505" y="660.2619926199262" />
+      <point x="28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.WorkingHoursCleaner" target="com.SchoolApp.domain.WorkingHours">
+      <point x="0.0" y="-26.0" />
+      <point x="536.6365313653137" y="309.2952029520295" />
+      <point x="621.3865313653137" y="309.2952029520295" />
+      <point x="-28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.SalaryTeacher" target="com.SchoolApp.domain.Salary">
+      <point x="0.0" y="-26.0" />
+      <point x="540.5055350553505" y="660.2619926199262" />
+      <point x="625.2555350553505" y="660.2619926199262" />
+      <point x="-28.25" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.factories.JobFactory" target="com.SchoolApp.domain.JobSecretary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.JobFactory" target="com.SchoolApp.domain.JobTeacher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.factories.WorkingHoursFactory" target="com.SchoolApp.domain.WorkingHoursTeacher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.SalaryCleaner" target="com.SchoolApp.domain.Salary">
+      <point x="0.0" y="-26.0" />
+      <point x="314.50553505535055" y="650.2619926199262" />
+      <point x="568.7555350553505" y="650.2619926199262" />
+      <point x="-84.75" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7753934191702432" x="959.830258302583" y="625.5470479704798" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
