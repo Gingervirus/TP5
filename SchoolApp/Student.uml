@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.SchoolApp.domain</OriginalElement>
+  <nodes>
+    <node x="322.0" y="832.0">com.SchoolApp.domain.DetentionNo</node>
+    <node x="560.0" y="832.0">com.SchoolApp.domain.DetentionYes</node>
+    <node x="424.0" y="586.0">com.SchoolApp.factories.DetentionFactory</node>
+    <node x="468.0" y="466.0">com.SchoolApp.TestGradingFactory</node>
+    <node x="431.0" y="707.0">com.SchoolApp.domain.Detention</node>
+    <node x="-330.0" y="832.0">com.SchoolApp.domain.GradingOne</node>
+    <node x="-131.0" y="707.0">com.SchoolApp.domain.Grading</node>
+    <node x="255.0" y="463.0">com.SchoolApp.TestStudent</node>
+    <node x="-122.0" y="590.0">com.SchoolApp.factories.MarkGradingFactory</node>
+    <node x="-121.0" y="832.0">com.SchoolApp.domain.GradingTwo</node>
+    <node x="212.0" y="65.0">com.SchoolApp.domain.StudentData</node>
+    <node x="88.0" y="832.0">com.SchoolApp.domain.GradingThree</node>
+    <node x="-359.0" y="48.0">com.SchoolApp.domain.StudentData.Builder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.SchoolApp.domain.GradingThree" target="com.SchoolApp.domain.Grading">
+      <point x="0.0" y="-26.0" />
+      <point x="182.5" y="807.0" />
+      <point x="43.16666666666674" y="807.0" />
+      <point x="69.66666666666674" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.DetentionNo" target="com.SchoolApp.domain.Detention">
+      <point x="0.0" y="-26.0" />
+      <point x="431.0" y="807.0" />
+      <point x="490.5" y="807.0" />
+      <point x="-59.5" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.StudentData.Builder" target="com.SchoolApp.domain.StudentData">
+      <point x="0.0" y="-235.5" />
+      <point x="0.0" y="159.0" />
+    </edge>
+    <edge source="com.SchoolApp.domain.DetentionYes" target="com.SchoolApp.domain.Detention">
+      <point x="0.0" y="-26.0" />
+      <point x="669.0" y="807.0" />
+      <point x="609.5" y="807.0" />
+      <point x="59.5" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.GradingTwo" target="com.SchoolApp.domain.Grading">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.SchoolApp.domain.GradingOne" target="com.SchoolApp.domain.Grading">
+      <point x="0.0" y="-26.0" />
+      <point x="-235.5" y="807.0" />
+      <point x="-96.16666666666663" y="807.0" />
+      <point x="-69.66666666666663" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="334.0" y="445.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
